@@ -49,18 +49,7 @@ const FooterSection = () => {
                 </p>
               </div>
             </div>
-            <div className="col-xl-3 col-md-5 col-lg-3">
-                  <div className="tf__footer_content">
-                    <h3>Obuna bo'ling</h3>
-                    <p>
-                     Bizni so'nggiz yangiliklarimizga qo'shiling
-                    </p>
-                    <form>
-                      <input type="text" placeholder="Email" />
-                      <button>Yuborish</button>
-                    </form>
-                  </div>
-                </div>
+            
 
                 <div className="col-12">
                   <div className="tf__copyright">
