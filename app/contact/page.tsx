@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <Layout>
-        <BreadcrumbSection header='Bog`lanish' title="Boglanish"/>
+        <BreadcrumbSection header="Bog'lanish" title="Bog'lanish"/>
         <ContactPageSection/>
     </Layout>
   )
