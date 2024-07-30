@@ -55,7 +55,7 @@ const AboutSection = () => {
                   Biz bilan sifatli ta'lim olib chet el universitutlarida talaba bo'lish imkoniyatlariga ega bo'ling.
                   </p>
                 </div>
-                <a href="#" className="common_btn">
+                <a href="/about" className="common_btn">
                   Bog'lanish
                 </a>
               </div>
