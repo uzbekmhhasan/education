@@ -4,6 +4,7 @@ import { toast } from "react-toastify";
 
 const ContactForm = () => {
   const [name, setName] = useState("");
+  const [number, setNumber] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
@@ -18,6 +19,7 @@ const ContactForm = () => {
         position: "top-right",
       });
       setName("");
+      setNumber("");
       setEmail("");
       setMessage("");
     }
@@ -31,6 +33,15 @@ const ContactForm = () => {
             type="text"
             placeholder="Ism"
             value={name}
+            onChange={(e) => setName(e.target.value)}
+            required
+          />
+        </div>
+        <div className="col-xl-6">
+          <input
+            type="number"
+            placeholder="Nomer"
+            value={number}
             onChange={(e) => setName(e.target.value)}
             required
           />
