@@ -20,7 +20,7 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
   >
     <ul className={`navbar-nav ${position}`}>
       <li className="nav-item">
-        <a className="nav-link" href="http://localhost:3000">
+        <a className="nav-link" href="https://owleducation.zu">
           Bosh sahifa
         </a>
         </li>
