@@ -28,12 +28,7 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
         <Navlink href="/about">Haqida</Navlink>
       </li>
       
-      <li className="nav-item">
-        <a className="nav-link" href="/blog">
-          Yangiliklar
-        </a>
-        
-      </li>
+    
      
       <li className="nav-item">
         <Navlink href="/contact">Bog'lanish</Navlink>
