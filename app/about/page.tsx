@@ -29,7 +29,7 @@ const page = async() => {
             
             {faqData && <FaqSection img="images/faq_img_2.jpg" faqData={faqData}/>}
             {activityData && <ActivitySection2 style="tf__activities_slider_area pt_95 pb_100" activityData={activityData}/>}
-            {blogData && <BlogSection blogData={blogData}/>}
+            
         </section>
     </Layout>
   )

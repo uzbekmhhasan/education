@@ -38,10 +38,7 @@ export default async function Home() {
       
       {faqData && <FaqSection img="images/faq_img.jpg" faqData={faqData}/>}
       {workData && <WorkSection workData={workData}/>}
-      {testimonialData && <TestimonialSection testimonialData={testimonialData}/>}
       
-      
-      {blogData && <BlogSection blogData={blogData}/>}
       <FooterSection />
       <VideoModal />
       <ScrollToTopButton style="" />
