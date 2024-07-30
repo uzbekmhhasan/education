@@ -43,7 +43,7 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
     </ul>
     {btnPosition ? (
       <a className="common_btn_2 ms-auto" href="#">
-        Ko'proq
+        Ko`proq
       </a>
     ) : null}
   </div>
