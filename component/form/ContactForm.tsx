@@ -4,7 +4,8 @@ import { toast } from "react-toastify";
 
 const ContactForm = () => {
   const [name, setName] = useState("");
-  const [number, setNumber] = useState("");
+  const [text, setText] = useState("");
+  const [familya, setFamilya] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
@@ -19,7 +20,8 @@ const ContactForm = () => {
         position: "top-right",
       });
       setName("");
-      setNumber("");
+      setText("");
+      setFamilya("");
       setEmail("");
       setMessage("");
     }
@@ -39,9 +41,18 @@ const ContactForm = () => {
         </div>
         <div className="col-xl-6">
           <input
-            type="number"
+            type="text"
+            placeholder="Familya"
+            value={familya}
+            onChange={(e) => setName(e.target.value)}
+            required
+          />
+        </div>
+        <div className="col-xl-6">
+          <input
+            type="text"
             placeholder="Nomer"
-            value={number}
+            value={text}
             onChange={(e) => setName(e.target.value)}
             required
           />
