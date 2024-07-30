@@ -32,7 +32,7 @@ const ContactPageSection = () => {
               </div>
               <div className="tf__contact_single">
                 <div className="icon orange">
-                  <i className="fas fa-phone-alt"></i>
+                  <i className="fas fa-envelope"></i>
                 </div>
                 <div className="text">
                   <h3>Email</h3>
@@ -42,7 +42,7 @@ const ContactPageSection = () => {
               </div>
               <div className="tf__contact_single">
                 <div className="icon green">
-                  <i className="fas fa-phone-alt"></i>
+                <i className="fas fa-map-marker-alt"></i>
                 </div>
                 <div className="text">
                   <h3>Manzil</h3>
