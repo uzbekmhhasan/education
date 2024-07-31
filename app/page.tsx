@@ -37,7 +37,7 @@ export default async function Home() {
       <AboutSection />
       
       {faqData && <FaqSection img="images/faq_img.jpg" faqData={faqData}/>}
-      {workData && <WorkSection workData={workData}/>}
+      
       
       <FooterSection />
       <VideoModal />

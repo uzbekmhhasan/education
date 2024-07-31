@@ -17,7 +17,7 @@ const BannerSection = () => {
             <div className="tf__banner_text wow fadeInUp">
               <h5>Xush Kelibsiz!</h5>
               <h1>
-              O'qi <span>O'rgan</span> Izlan!
+              O'rgan <span>Yetakchi bo'l</span> O'zgartir!
               </h1>
               <p>
               Owl Education - bu shunchaki platforma emas; bu ta'lim qiziqarli sarguzashtga aylanadigan tarbiyaviy makon. Qiziqishni yoqish va yosh ongni ilhomlantirish ishtiyoqi bilan.</p>

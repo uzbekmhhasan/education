@@ -68,7 +68,7 @@ const AboutSection = () => {
             <div className="tf__about_text">
               <div className="tf__heading_area tf__heading_area_left mb_25">
                 <h5>Haqimizda</h5>
-                <h2>O'qi,o'rgan,izlan!.</h2>
+                <h2>O'rgan,Yetakchi bo'l,O'zgartir.</h2>
               </div>
               <p>
               Siz farzandingiz uchun eng yaxshisini xoxlaydigan ota-onasiz.{" "}
