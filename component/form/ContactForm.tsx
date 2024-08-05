@@ -1,15 +1,18 @@
 "use client";
 import React, { useState } from "react";
 import { toast } from "react-toastify";
+import { useForm } from '@formspree/react';
+
 
 const ContactForm = () => {
+  const [state,submit] = useForm('mqazqpve');
   const [name, setName] = useState("");
   const [text, setText] = useState("");
   const [familya, setFamilya] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) =>{
     e.preventDefault();
 
     if (!name || !email || !message) {
@@ -27,8 +30,14 @@ const ContactForm = () => {
     }
   };
 
+ // function ContactForm() {
+  //  const [state, handleSubmit] = useForm("mqazqpve");
+  //  if (state.succeeded) {
+  //      return <p>Thanks for joining!</p>;
+  //  }
+
   return (
-    <form onSubmit={handleFormSubmit}>
+    <form onSubmit={submit} >
       <div className="row">
         <div className="col-xl-6">
           <input
@@ -44,7 +53,7 @@ const ContactForm = () => {
             type="text"
             placeholder="Familya"
             value={familya}
-            onChange={(e) => setName(e.target.value)}
+            onChange={(e) => setFamilya(e.target.value)}
             required
           />
         </div>
@@ -53,7 +62,7 @@ const ContactForm = () => {
             type="text"
             placeholder="Nomer"
             value={text}
-            onChange={(e) => setName(e.target.value)}
+            onChange={(e) => setText(e.target.value)}
             required
           />
         </div>
